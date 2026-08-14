@@ -32,7 +32,7 @@ def main():
         updatable.update(dt)
         for asteroid in asteroids:
             if asteroid.collides_with(player):
-                log_event("player hit")
+                log_event("player_hit")
                 print("Game over!")
                 sys.exit()
         for object in drawable:
